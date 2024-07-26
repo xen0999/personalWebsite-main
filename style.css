@@ -1,0 +1,135 @@
+body {
+    background-image: url("../personalWebsite/imgs/demon.jpg");
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+}
+
+nav {
+
+}
+
+.navLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+a{
+    color: white;
+    font-size: 30px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+
+}
+
+#nameText {
+    display: inline-block;
+    padding: 0;
+    margin-left: 120px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    color: white;
+
+}
+
+#summary {
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+    align-items: right;
+    text-align: right;
+    color: white;
+    font-family:Helvetica,  Arial, sans-serif;
+    margin-right: 10px;
+}
+
+#gallery {
+ display: inline-block;   
+ float: right;
+ width: 70%;
+}
+
+.photos {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(186, 186, 186);
+    margin: 20px;
+    display: inline-flex;
+    float: right;
+}
+
+.socials {
+    display: inline-block;
+    float: right;
+    margin: 30px;
+    font-size: 40px;
+}
+
+form {
+    float: right;
+    align-content: right;
+    margin-right: 30px;
+}
+
+form h1 {
+    color: white;
+    font-family:Helvetica,  Arial, sans-serif;
+    font-size: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    color: rgb(82, 82, 82);
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+
+#bottomBar {
+    justify-content: center;
+  }
+#resumeSkills {
+    list-style-type: square;
+    display:flex;
+}
+
+.resSkills {
+    display:block;
+    margin:10px;
+}
+/* 
+want to figure out how to adaptively change color of text.
+Want to figure out how to 
